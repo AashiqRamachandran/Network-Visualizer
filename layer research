@@ -1,0 +1,105 @@
+Layer ETH:
+        Destination: 74:e5:43:36:2b:fc
+        Address: 74:e5:43:36:2b:fc
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        Source: e0:37:17:f1:bd:27
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        Type: IPv4 (0x0800)
+        Address: e0:37:17:f1:bd:27
+Layer IP:
+        0100 .... = Version: 4
+        .... 0101 = Header Length: 20 bytes (5)
+        Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+        Total Length: 179
+        Identification: 0x78d4 (30932)
+        Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        Fragment offset: 0
+        Time to live: 255
+        Protocol: UDP (17)
+        Header checksum: 0x5fba [validation disabled]
+        Header checksum status: Unverified
+        Source: 192.168.1.7
+        Destination: 224.0.0.251
+Layer UDP:
+        Source Port: 5353
+        Destination Port: 5353
+        Length: 159
+        Checksum: 0x0e4a [unverified]
+        Checksum Status: Unverified
+        Stream index: 0                                                                                                                                               
+        Timestamps
+        Time since first frame: 0.000000000 seconds
+        Time since previous frame: 0.000000000 seconds
+Layer MDNS:
+        Transaction ID: 0x0000
+        Flags: 0x0000 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        Questions: 3
+        Answer RRs: 0
+        Authority RRs: 3
+        Additional RRs: 0
+        Queries
+        Name: XStream_Smart_Box_001._androidtvremote._tcp.local
+        Name Length: 49
+        Label Count: 4
+        Type: * (A request for all records the server/cache has available) (255)
+        .000 0000 0000 0001 = Class: IN (0x0001)
+        0... .... .... .... = "QU" question: False
+        Service: XStream_Smart_Box_001
+        Protocol: _androidtvremote
+        Name: _tcp.local
+        Type: SRV (Server Selection) (33)
+        .000 0000 0000 0001 = Class: IN (0x0001)
+        0... .... .... .... = Cache flush: False
+        Time to live: 120 (2 minutes)
+        Data length: 8
+        Priority: 0
+        Weight: 0
+        Port: 6466
+        Target: Android.local
+        Name: Android.local
+        Address: 192.168.1.7
+        AAAA Address: fe80::e237:17ff:fef1:bd27
+        XStream_Smart_Box_001._androidtvremote._tcp.local: type ANY, class IN, "QM" question
+        Android.local: type ANY, class IN, "QM" question
+        Android.local: type ANY, class IN, "QM" question
+        Authoritative nameservers
+        XStream_Smart_Box_001._androidtvremote._tcp.local: type SRV, class IN, priority 0, weight 0, port 6466, target Android.local
+        Android.local: type A, class IN, addr 192.168.1.7
+        Android.local: type AAAA, class IN, addr fe80::e237:17ff:fef1:bd27
+        Name: Android.local
+        Name: Android.local
+        Name Length: 13
+        Name Length: 13
+        Label Count: 2
+        Label Count: 2
+        Type: * (A request for all records the server/cache has available) (255)
+        Type: * (A request for all records the server/cache has available) (255)
+        .000 0000 0000 0001 = Class: IN (0x0001)
+        .000 0000 0000 0001 = Class: IN (0x0001)
+        0... .... .... .... = "QU" question: False
+        0... .... .... .... = "QU" question: False
+        Type: A (Host Address) (1)
+        Type: AAAA (IPv6 Address) (28)
+        .000 0000 0000 0001 = Class: IN (0x0001)
+        .000 0000 0000 0001 = Class: IN (0x0001)
+        0... .... .... .... = Cache flush: False
+        0... .... .... .... = Cache flush: False
+        Time to live: 120 (2 minutes)
+        Time to live: 120 (2 minutes)
+        Data length: 4
+        Data length: 16
+        Name: Android.local
+
